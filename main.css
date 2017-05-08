@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.navigation {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: white;
+}
+
+.navItems {
+	float: right;
+}
+
+.navItems a {
+	display: block;
+    color: #0F2A1A;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    text-decoration: none;
+}
+
+.navItems a:hover {
+	background-color: #43BF98;
+	color: white;
+}
+
+#headerAssigment {
+	background-image: url("hero.jpeg");
+	background-size: cover;	
+}
+
+.hero {
+	height: 400px;
+	padding-top: 150px;
+}
+
+.heroTitle {
+	min-width: 20%;
+	text-align: center;
+	color: white;
+	font-size: 2.5em;
+}
+
+.heroTitle h1, .heroTitle h3 {
+	margin: 20px;
+}
+
+#firstSection {
+	padding-top: 50px;
+	padding-bottom: 0;
+	padding-left: 10%;
+}
+
+.center {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.imgSMario {
+	width: 40%;
+	float: left;
+	border: none;
+	position: relative;
+	bottom: -2.3em;
+}
+
+.imgSMario img {
+	max-width: 90%;
+	height: auto;
+	padding-top: 5%;
+	padding-bottom: 0px;
+	margin: 0 auto;
+}
+
+.aboutMe {
+	padding: 0 2%;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 500px;
+	max-height: 300px;
+	float: left;
+}
+
+.clearer {
+	clear: both;
+}
+
+footer {
+  	padding: 1.2em;
+  	background-color: #1A181B;
+  	margin-top: 2em;
+}
+
+.listFooter {
+	list-style: none;
+	text-align: left;
+}
+
+.footerLink a {
+	color: white;
+	text-decoration: none;
+}
+
+.footerLink a:hover {
+	color: #DE4A5C;
+	text-decoration: none;
+}
